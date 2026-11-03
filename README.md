@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# stagescroll-web
 
-## Getting Started
+The website for StageScroll, the iPad chord sheet app published by NeuralPulse Labs: a
+one-page overview at `/` and the privacy policy the App Store listing links to at
+`/privacy`. Next.js (App Router), TypeScript and Tailwind CSS 4.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```sh
+npm install
+npm run dev     # http://localhost:3000
+npm run build   # production build; every page is static
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Where things are
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `src/lib/site.ts`: the app name, publisher, contact email, domain, the unlock's price and
+  features, the App Store link and the privacy policy's effective date. Set `appStoreUrl`
+  once the app is live, and change `privacyEffectiveDate` whenever the policy changes.
+- `src/app/page.tsx`: the landing page (hero, features, screenshots, the unlock, privacy
+  summary, support and FAQ). Features in the unlock are marked `unlock: true`.
+- `src/app/privacy/page.tsx`: the privacy policy. Keep it in step with the app's
+  `PrivacyInfo.xcprivacy` and its App Privacy answers ("Data Not Collected"), and update it
+  before shipping anything that collects data, adds a network service or a new permission.
+- `src/assets/screenshots/`: screenshots from the iPad simulator, shown with
+  `src/components/device-frame.tsx`.
+- `src/app/icon.png`, `apple-icon.png` and `public/app-icon.png`: copies of the app icon.
+- Colours (from the icon) and fonts are in `src/app/globals.css` and `src/app/layout.tsx`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Screenshots
 
-## Learn More
+Taken on the iPad Pro 13-inch simulator (and an iPad mini for the band follower) from a
+Debug build, with a library of public-domain songs only, and saved as JPEG (quality 88):
 
-To learn more about Next.js, take a look at the following resources:
+- Status bar: `xcrun simctl status_bar <udid> override --time 9:41 --batteryState charged --batteryLevel 100 --wifiBars 3`
+- Song view: launch with `-appearance dark -SelectSong "Home on the Range" -showsChordDiagrams YES`.
+- Band: launch the leader with `-BandLead YES -bandName "Lead Guitar"` and the followers with
+  `-BandJoin 1234 -bandName Bass` (and `Keys`), then open the Band panel from the toolbar badge.
+- `-appearance light` and `-sidebar setlists` give the light setlist shot; open a setlist and a song.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Never use songs from the owner's own library: they're copyrighted.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## App Store Connect URLs
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Privacy Policy URL: `https://stagescroll.com/privacy`
+- Support URL: `https://stagescroll.com/#support`
+- Marketing URL (optional): `https://stagescroll.com`
