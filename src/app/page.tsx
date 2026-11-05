@@ -42,6 +42,11 @@ const features: { title: string; body: string; unlock?: boolean }[] = [
     unlock: true,
   },
   {
+    title: "Your library on every iPad",
+    body: "Turn on iCloud sync and your songs, setlists and sounds stay the same on all your iPads. Each iPad keeps its own full copy, so everything opens with no network, and syncing waits while you play.",
+    unlock: true,
+  },
+  {
     title: "Sound pads",
     body: "Give a song up to four sounds, such as an intro, a drone or a loop, and fire them from the pedal, with an optional count-in.",
     unlock: true,
@@ -82,7 +87,7 @@ const faqs = [
   },
   {
     q: "Is it free?",
-    a: `StageScroll is free to download, and everything except the items in the unlock is free to use, with no ads and no time limit. A one-time in-app purchase${site.unlock.price ? ` of ${site.unlock.price}` : ""} adds band sync, sound pads and importing many songs at once.`,
+    a: `StageScroll is free to download, and everything except the items in the unlock is free to use, with no ads and no time limit. A one-time in-app purchase${site.unlock.price ? ` of ${site.unlock.price}` : ""} adds iCloud sync, band sync, sound pads and importing many songs at once. With Family Sharing, one purchase covers your family.`,
   },
   {
     q: "Does it work on iPhone or Mac?",
@@ -94,11 +99,11 @@ const faqs = [
   },
   {
     q: "Where are my songs kept?",
-    a: "On your iPad, as plain-text files you can see in the Files app under On My iPad › StageScroll. Copy files in or out through Files or Finder at any time.",
+    a: "On your iPad, as plain-text files you can see in the Files app under On My iPad › StageScroll. Copy files in or out through Files or Finder at any time. With iCloud sync on, each iPad keeps its own copy and the library is also in iCloud Drive › StageScroll.",
   },
   {
     q: "Do I need an account or an internet connection?",
-    a: "No. There's no sign-up, and StageScroll works offline, so it keeps going at venues with bad Wi-Fi. Band sync connects the iPads directly.",
+    a: "No. There's no sign-up, and StageScroll works offline, so it keeps going at venues with bad Wi-Fi. Band sync connects the iPads directly. iCloud sync uses your own iCloud account and catches up when you're back online.",
   },
 ];
 

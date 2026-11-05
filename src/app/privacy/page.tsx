@@ -94,9 +94,12 @@ export default function PrivacyPage() {
 
         <Section title="iCloud">
           <p>
-            If a version of {site.name} offers iCloud sync and you turn it on, your library is stored in
-            your own iCloud Drive and synced between your devices by Apple. We have no access to your
-            iCloud account or its contents. Apple&apos;s privacy policy covers iCloud.
+            If you turn on iCloud sync, your library (songs, setlists, sound pad audio and any versions
+            of songs it sets aside) is stored in your own iCloud Drive, under{" "}
+            <strong>iCloud Drive › {site.name}</strong>, and synced between your devices by Apple. Each
+            device also keeps its own copy. We have no access to your iCloud account or its contents.
+            Apple&apos;s privacy policy covers iCloud. Turning sync off keeps the library on that device
+            and leaves the copy in iCloud Drive, which you can delete in the Files app.
           </p>
         </Section>
 
