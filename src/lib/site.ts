@@ -3,7 +3,7 @@ export const site = {
   name: "StageScroll",
   tagline: "Chord sheets for the stage",
   description:
-    "StageScroll is an iPad app for guitar chord sheets: hands-free scrolling with a page-turner pedal, auto-scroll, setlists, chord diagrams and band sync.",
+    "StageScroll is an iPad app for guitar chord sheets: hands-free scrolling with a page-turner pedal, auto-scroll, setlists, chord diagrams, band sync and iCloud sync.",
   url: "https://stagescroll.com",
   contactEmail: "stagescroll@neuralpulselabs.com",
   // The publisher: the developer name on the App Store, and the legal name for the
@@ -16,6 +16,7 @@ export const site = {
   unlock: {
     price: "$4.99" as string | null,
     features: [
+      { name: "iCloud sync", detail: "Your songs, setlists and sounds on all your iPads, kept the same through iCloud." },
       { name: "Band sync", detail: "Lead your bandmates' iPads, or follow the leader's." },
       { name: "Sound pads", detail: "Up to four sounds per song, played from the pedal." },
       { name: "Import many songs at once", detail: "Whole folders, zips and StageScroll backups, sounds included." },
@@ -26,5 +27,5 @@ export const site = {
   // (developer.apple.com/app-store/marketing/guidelines).
   appStoreUrl: null as string | null,
   // The date the privacy policy took effect. Change it whenever the policy changes.
-  privacyEffectiveDate: "November 3, 2026",
+  privacyEffectiveDate: "November 5, 2026",
 } as const;
