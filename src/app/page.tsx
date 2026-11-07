@@ -7,6 +7,8 @@ import bandLeader from "@/assets/screenshots/band-leader.jpg";
 import setlistLight from "@/assets/screenshots/setlist-light.jpg";
 import songDark from "@/assets/screenshots/song-dark.jpg";
 
+// The grid shows these in two or three columns, so a multiple of six fills every row; any
+// other count leaves a grey gap at the end. The unlock ones go last.
 const features: { title: string; body: string; unlock?: boolean }[] = [
   {
     title: "Turn pages with your foot",
@@ -18,27 +20,35 @@ const features: { title: string; body: string; unlock?: boolean }[] = [
   },
   {
     title: "Setlists for the whole show",
-    body: "Put songs in order and step through the set. With the pedal option on, a press past the end of a song opens the next one.",
-  },
-  {
-    title: "Every chord has a diagram",
-    body: "Show a diagram for every chord in the song, with fingerings. Transpose, or move the capo, and the diagrams follow.",
+    body: "Put songs in order and step through the set. With the pedal option on, a press past the end of a song opens the next one. If iPadOS closes the app in the background, it opens again where you were.",
   },
   {
     title: "Jump to any section",
     body: "Verses, choruses and bridges get a bar above the sheet. Tap one to go straight there; the part you're playing is highlighted.",
   },
   {
+    title: "Every chord has a diagram",
+    body: "Show a diagram for every chord in a guitar sheet, with fingerings. Transpose, or move the capo, and the diagrams follow.",
+  },
+  {
+    title: "Tab that transposes",
+    body: "Guitar and bass tab is recognized anywhere in a sheet. Transpose and the frets move with the chords, every row stays lined up, and a note that would go below the nut moves down a string, as you'd play it.",
+  },
+  {
+    title: "A version for every player",
+    body: "Keep a guitar chord sheet, a bass tab and a keys chart for the same song. Tell StageScroll what you play and it opens your version; switch to another from the badge under the title and you land in the same section.",
+  },
+  {
     title: "Tuner and metronome built in",
-    body: "The tuner knows the song's tuning, standard or E♭, with or without the capo. Tap a song's tempo for a click that flashes on the beat.",
+    body: "The tuner knows the song's tuning, standard or E♭, with or without the capo, and tunes bass and ukulele too. Tap a song's tempo for a click that flashes on the beat.",
   },
   {
     title: "Bring your songs in, take them out",
-    body: "Paste a chord sheet from anywhere, open a PDF or import ChordPro. Share a song or a whole songbook as a PDF, ChordPro or song files.",
+    body: "Paste a chord sheet from anywhere, or open a PDF (scans too) or a ChordPro file, from the app or another app's share sheet. Share a song or a whole songbook as a PDF, ChordPro or song files.",
   },
   {
     title: "Play in sync with your band",
-    body: "One iPad leads and the rest follow its songs, scrolling, transposition and metronome, over Wi-Fi or Bluetooth with no internet needed. Bandmates join with a four-digit code.",
+    body: "One iPad leads and the rest follow its songs, scrolling, transposition and metronome, over Wi-Fi or Bluetooth with no internet needed. Each player reads their own part, kept on the same verse, and gets any song or part they're missing from the leader.",
     unlock: true,
   },
   {
@@ -74,9 +84,9 @@ const screenshots = [
   },
   {
     image: bandFollower,
-    title: "Follow the leader",
-    caption: "A bandmate's iPad opens the same song and scrolls with the leader, even on a smaller screen.",
-    alt: "A follower's iPad mini showing Home on the Range, following Lead Guitar",
+    title: "Follow in your own part",
+    caption: "The bassist's iPad mini follows the leader's chord sheet in a bass tab of the same song, sent over from the leader's iPad.",
+    alt: "A bassist's iPad mini following Lead Guitar, showing the bass tab version of Home on the Range with a Bass badge and Intro, Verse and Chorus sections",
   },
 ];
 
@@ -90,12 +100,16 @@ const faqs = [
     a: `StageScroll is free to download, and everything except the items in the unlock is free to use, with no ads and no time limit. A one-time in-app purchase${site.unlock.price ? ` of ${site.unlock.price}` : ""} adds iCloud sync, band sync, sound pads and importing many songs at once. With Family Sharing, one purchase covers your family.`,
   },
   {
+    q: "I play bass, keys or ukulele. Is it for me?",
+    a: "Yes. Choose what you play when you first open the app, or later in the ⋯ menu under I Play. A song can have a version for guitar, bass, keys, ukulele, vocals or drums, and StageScroll opens yours, or the guitar version if there isn't one for you. Bass tab transposes like guitar tab, and the tuner tunes bass and ukulele strings.",
+  },
+  {
     q: "Does it work on iPhone or Mac?",
     a: "No. StageScroll is made for the iPad's screen, so a whole verse and its chords fit at a size you can read from a music stand.",
   },
   {
     q: "How do I bring in songs from somewhere else?",
-    a: "Copy a chord sheet from a web page, a document or a note and paste it into the app: it works out the title, capo and sections. PDFs with text in them and ChordPro files import too.",
+    a: "Copy a chord sheet from a web page, a document or a note and paste it into the app: it works out the title, capo and sections. PDFs and ChordPro files import too, from the + menu or by choosing StageScroll in another app's share sheet. A PDF that's a scan or a picture of a sheet is read with text recognition, on the iPad.",
   },
   {
     q: "Where are my songs kept?",
@@ -122,9 +136,9 @@ export default function Home() {
               Your chord sheets, <span className="text-spot-bright">ready for the stage.</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-cream-dim text-pretty">
-              StageScroll keeps lyrics and chords big, clear and lined up, then scrolls them for you: by
-              pedal, by auto-scroll or in step with your band. Keep your eyes up and your hands on the
-              guitar.
+              StageScroll keeps lyrics, chords and tab big, clear and lined up, then scrolls them for you:
+              by pedal, by auto-scroll or in step with your band. Keep your eyes up and your hands on your
+              instrument.
             </p>
             <div className="mt-9 flex flex-wrap items-center gap-4">
               {site.appStoreUrl ? (
@@ -219,8 +233,8 @@ export default function Home() {
               Free to play. One purchase for the band.
             </h2>
             <p className="mt-4 max-w-xl text-lg leading-relaxed text-cream-dim">
-              Pedal scrolling, auto-scroll, setlists, chord diagrams, the tuner and the metronome, importing
-              and sharing are all free, for good. A one-time unlock adds the rest. No subscription.
+              Pedal scrolling, auto-scroll, setlists, chord diagrams, tab, a version for every instrument,
+              the tuner and the metronome, importing and sharing are all free, for good. A one-time unlock adds the rest. No subscription.
             </p>
           </div>
           <div className="rounded-2xl border border-spot/40 bg-stage p-7 sm:p-8">
@@ -266,7 +280,7 @@ export default function Home() {
             className="min-w-0 overflow-x-auto rounded-xl border border-stage-line bg-stage p-5 font-mono text-[12px] leading-relaxed text-cream-dim sm:text-[13px]"
           >
             <span className="text-muted">Traditional - Home on the Range.txt</span>
-            {"\n\n"}Title: Home on the Range{"\n"}Artist: Traditional{"\n"}Key: G{"\n"}Tempo: 100{"\n"}---{"\n"}
+            {"\n\n"}Title: Home on the Range{"\n"}Artist: Traditional{"\n"}Instrument: Guitar{"\n"}Key: G{"\n"}Tempo: 100{"\n"}---{"\n"}
             <span className="text-spot-bright">[Verse 1]</span>
             {"\n"}
             <span className="font-bold text-spot-bright">{"    G         G7             C       Cm"}</span>

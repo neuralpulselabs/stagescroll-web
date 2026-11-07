@@ -3,7 +3,7 @@ export const site = {
   name: "StageScroll",
   tagline: "Chord sheets for the stage",
   description:
-    "StageScroll is an iPad app for guitar chord sheets: hands-free scrolling with a page-turner pedal, auto-scroll, setlists, chord diagrams, band sync and iCloud sync.",
+    "StageScroll is an iPad app for chord sheets and tab: hands-free scrolling with a page-turner pedal, auto-scroll, setlists, chord diagrams, a version of each song for every player, band sync and iCloud sync.",
   url: "https://stagescroll.com",
   contactEmail: "stagescroll@neuralpulselabs.com",
   // The publisher: the developer name on the App Store, and the legal name for the
@@ -17,7 +17,7 @@ export const site = {
     price: "$4.99" as string | null,
     features: [
       { name: "iCloud sync", detail: "Your songs, setlists and sounds on all your iPads, kept the same through iCloud." },
-      { name: "Band sync", detail: "Lead your bandmates' iPads, or follow the leader's." },
+      { name: "Band sync", detail: "Lead your bandmates' iPads, or follow the leader's, each player in their own part." },
       { name: "Sound pads", detail: "Up to four sounds per song, played from the pedal." },
       { name: "Import many songs at once", detail: "Whole folders, zips and StageScroll backups, sounds included." },
     ],

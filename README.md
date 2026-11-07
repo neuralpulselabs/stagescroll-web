@@ -35,6 +35,12 @@ Debug build, with a library of public-domain songs only, and saved as JPEG (qual
 - Song view: launch with `-appearance dark -SelectSong "Home on the Range" -showsChordDiagrams YES`.
 - Band: launch the leader with `-BandLead YES -bandName "Lead Guitar"` and the followers with
   `-BandJoin 1234 -bandName Bass` (and `Keys`), then open the Band panel from the toolbar badge.
+- Band follower in its own part: launch the leader once (with `-didShowWelcome YES`) so it
+  imports the sample songs, copy `screenshot-songs/Traditional - Home on the Range (Bass).txt`
+  into its Documents (`xcrun simctl get_app_container <udid> com.neuralpulselabs.stagescroll data`),
+  then launch it with `-BandLead YES -bandName "Lead Guitar" -instrument guitar -SelectSong "Home on the Range" -appearance dark`
+  and the iPad mini, freshly installed, with `-BandJoin 1234 -bandName Bass -instrument bass`.
+  The follower gets the bass part from the leader and shows it.
 - `-appearance light` and `-sidebar setlists` give the light setlist shot; open a setlist and a song.
 
 Never use songs from the owner's own library: they're copyrighted.
