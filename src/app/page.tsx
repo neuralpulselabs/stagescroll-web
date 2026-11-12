@@ -40,7 +40,7 @@ const features: { title: string; body: string; unlock?: boolean }[] = [
   },
   {
     title: "Tuner and metronome built in",
-    body: "The tuner knows the song's tuning, standard or E♭, with or without the capo, and tunes bass and ukulele too. Tap a song's tempo for a click that flashes on the beat.",
+    body: "The tuner knows the song's tuning, from standard and E♭ to Drop D, DADGAD, open G or your own, with or without the capo, and tunes bass and ukulele too. Tap a song's tempo for a click that flashes on the beat.",
   },
   {
     title: "Bring your songs in, take them out",
@@ -102,6 +102,10 @@ const faqs = [
   {
     q: "I play bass, keys or ukulele. Is it for me?",
     a: "Yes. Choose what you play when you first open the app, or later in the ⋯ menu under I Play. A song can have a version for guitar, bass, keys, ukulele, vocals or drums, and StageScroll opens yours, or the guitar version if there isn't one for you. Bass tab transposes like guitar tab, and the tuner tunes bass and ukulele strings.",
+  },
+  {
+    q: "Does it work with VoiceOver?",
+    a: "Yes. VoiceOver reads a chord sheet a line at a time, saying chords as words and reading tab string by string, and section headings are on the Headings rotor. Text grows with Dynamic Type, and with Dim Flashing Lights on, the metronome's screen border pulses gently instead of flashing.",
   },
   {
     q: "Does it work on iPhone or Mac?",
