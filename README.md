@@ -18,6 +18,10 @@ npm run lint
   once the app is live, and change `privacyEffectiveDate` whenever the policy changes.
 - `src/app/page.tsx`: the landing page (hero, features, screenshots, the unlock, privacy
   summary, support and FAQ). Features in the unlock are marked `unlock: true`.
+- `src/app/windows/page.tsx`: the Windows version's page at `/windows`. Set
+  `site.windows.downloadUrl` once there is an installer; until then it says "Coming soon".
+  Its screenshots (`windows-*.jpg`) are shown with `src/components/window-frame.tsx`;
+  `CLAUDE.md` says how they were taken, from the library in `screenshot-songs/windows/`.
 - `src/app/privacy/page.tsx`: the privacy policy. Keep it in step with the app's
   `PrivacyInfo.xcprivacy` and its App Privacy answers ("Data Not Collected"), and update it
   before shipping anything that collects data, adds a network service or a new permission.

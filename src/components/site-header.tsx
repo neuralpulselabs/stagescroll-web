@@ -24,6 +24,9 @@ export function SiteHeader() {
           <Link href="/#screenshots" className="hidden transition-colors hover:text-cream md:inline">
             Screenshots
           </Link>
+          <Link href="/windows" className="hidden transition-colors hover:text-cream sm:inline">
+            Windows
+          </Link>
           <Link href="/#support" className="transition-colors hover:text-cream">
             Support
           </Link>

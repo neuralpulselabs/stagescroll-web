@@ -1,0 +1,40 @@
+Title: Oh! Susanna
+Artist: Stephen Foster
+Instrument: Drums
+Tempo: 116
+---
+[Intro]
+(4 bars. Hi-hat alone for 2 bars, then the full beat.)
+      1 + 2 + 3 + 4 +
+HH    x x x x x x x x
+SD    . . . . . . . .
+BD    . . . . . . . .
+
+[Verse 1]
+(Train beat: kick on 1 and 3, snare on 2 and 4.)
+      1 + 2 + 3 + 4 +
+HH    x x x x x x x x
+SD    . . o . . . o .
+BD    o . . . o . . .
+
+[Chorus]
+(Open the hi-hat on the 1 and keep the snare strong.)
+      1 + 2 + 3 + 4 +
+HH    X x x x X x x x
+SD    . . o . . . o .
+BD    o . . . o . . o
+
+[Verse 2]
+(Same as Verse 1.)
+      1 + 2 + 3 + 4 +
+HH    x x x x x x x x
+SD    . . o . . . o .
+BD    o . . . o . . .
+
+[Chorus]
+(Same as the first chorus.)
+      1 + 2 + 3 + 4 +
+HH    X x x x X x x x
+SD    . . o . . . o .
+BD    o . . . o . . o
+(Last chorus twice, with a snare fill into the repeat.)

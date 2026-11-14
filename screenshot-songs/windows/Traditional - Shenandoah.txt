@@ -1,0 +1,29 @@
+Title: Shenandoah
+Artist: Traditional
+Instrument: Guitar
+Key: G
+Tempo: 80
+Chord: G 320003 210003
+Chord: C x32010 x32010
+Chord: D xx0232 xx0132
+Chord: Em 022000 023000
+---
+[Verse 1]
+G                  C           G
+Oh Shenandoah, I long to see you,
+        Em      D
+Away, you rolling river.
+G                  C           G
+Oh Shenandoah, I long to see you,
+     C        G     D   G
+Away, I'm bound away, 'cross the wide Missouri.
+
+[Verse 2]
+G                  C            G
+Oh Shenandoah, I love your daughter,
+        Em      D
+Away, you rolling river.
+G                  C            G
+For her I'd cross the roaming waters,
+     C        G     D   G
+Away, I'm bound away, 'cross the wide Missouri.

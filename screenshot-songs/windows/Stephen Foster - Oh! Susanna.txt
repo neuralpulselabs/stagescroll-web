@@ -1,0 +1,45 @@
+Title: Oh! Susanna
+Artist: Stephen Foster
+Instrument: Guitar
+Capo: 2
+Tempo: 116
+Chord: G 320003 210003
+Chord: C x32010 x32010
+Chord: D7 xx0212 xx0213
+Strum: 1/8: D - D U - U D U
+---
+[Intro]
+| G   | G   | D7  | G   |
+
+[Verse 1]
+  G                         D7
+I come from Alabama with my banjo on my knee,
+    G                      D7               G
+I'm going to Louisiana, my true love for to see.
+   G                                    D7
+It rained all night the day I left, the weather it was dry,
+    G                              D7               G
+The sun so hot I froze to death; Susanna, don't you cry.
+
+[Chorus]
+C            G             D7
+Oh! Susanna, oh, don't you cry for me,
+    G                           D7          G
+For I come from Alabama with my banjo on my knee.
+
+[Verse 2]
+  G                                D7
+I had a dream the other night when everything was still;
+  G                       D7              G
+I thought I saw Susanna a-coming down the hill.
+    G                                    D7
+The buckwheat cake was in her mouth, the tear was in her eye,
+     G                               D7               G
+Says I, I'm coming from the south, Susanna, don't you cry.
+
+[Chorus]
+C            G             D7
+Oh! Susanna, oh, don't you cry for me,
+    G                           D7          G
+For I come from Alabama with my banjo on my knee.
+(Last chorus twice)
