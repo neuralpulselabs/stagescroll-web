@@ -109,7 +109,7 @@ const faqs = [
   },
   {
     q: "Does it work on iPhone or Mac?",
-    a: "No. StageScroll is made for the iPad's screen, so a whole verse and its chords fit at a size you can read from a music stand.",
+    a: "No. StageScroll is made for the iPad's screen, so a whole verse and its chords fit at a size you can read from a music stand. A separate Windows version is on the way, and has its own page.",
   },
   {
     q: "How do I bring in songs from somewhere else?",
@@ -225,6 +225,29 @@ export default function Home() {
                 </figcaption>
               </figure>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Windows */}
+      <section className="border-t border-stage-line/60">
+        <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
+          <div className="flex flex-col gap-6 rounded-2xl border border-stage-line bg-stage-raised/40 p-7 sm:flex-row sm:items-center sm:justify-between sm:p-8">
+            <div>
+              <h2 className="font-display text-2xl font-bold tracking-tight sm:text-3xl">
+                Playing from a PC? There&apos;s a Windows version coming.
+              </h2>
+              <p className="mt-2 max-w-2xl leading-relaxed text-cream-dim">
+                The same chord sheets, tab, transposing and setlists, reading the same song files as the iPad
+                app.
+              </p>
+            </div>
+            <Link
+              href="/windows"
+              className="shrink-0 self-start rounded-full border border-cream/30 px-5 py-2.5 font-medium transition hover:border-cream hover:bg-cream hover:text-stage sm:self-auto"
+            >
+              StageScroll for Windows →
+            </Link>
           </div>
         </div>
       </section>

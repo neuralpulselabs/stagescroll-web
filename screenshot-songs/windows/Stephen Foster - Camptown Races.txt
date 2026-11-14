@@ -1,0 +1,20 @@
+Title: Camptown Races
+Artist: Stephen Foster
+Instrument: Guitar
+Key: G
+Tempo: 120
+Chord: G 320003 210003
+Chord: C x32010 x32010
+Chord: D7 xx0212 xx0213
+---
+[Verse]
+G                             D7
+Camptown ladies sing this song, doo-dah, doo-dah,
+G                             D7        G
+Camptown racetrack five miles long, oh, de doo-dah day.
+
+[Chorus]
+D7                      G
+Goin' to run all night, goin' to run all day,
+  C         G      D7        G
+I bet my money on a bob-tailed nag, somebody bet on the bay.

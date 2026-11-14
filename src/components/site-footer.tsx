@@ -11,10 +11,13 @@ export function SiteFooter() {
           </p>
           <p>
             © {site.copyrightYear} {site.publisherLegalName}. iPad, iPadOS and App Store are
-            trademarks of Apple Inc.
+            trademarks of Apple Inc. Windows is a trademark of the Microsoft group of companies.
           </p>
         </div>
         <nav className="flex shrink-0 gap-6">
+          <Link href="/windows" className="hover:text-cream">
+            Windows
+          </Link>
           <Link href="/privacy" className="hover:text-cream">
             Privacy Policy
           </Link>

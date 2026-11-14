@@ -26,6 +26,14 @@ export const site = {
   // Then use Apple's official "Download on the App Store" badge for the button
   // (developer.apple.com/app-store/marketing/guidelines).
   appStoreUrl: null as string | null,
+  // The Windows version (the `/windows` page). Set `downloadUrl` once there is an installer
+  // to download; until then the page says "Coming soon" and offers an email to be told.
+  windows: {
+    downloadUrl: "https://n8f8ykzicqtenhus.public.blob.vercel-storage.com/downloads/StageScroll-Setup-0.1.0.exe" as string | null,
+    version: "0.1.0",
+    description:
+      "StageScroll for Windows: the iPad app's chord sheets and tab on a PC, with the same layout, the same song files, transposing, chord diagrams, auto-scroll, setlists and a version for every instrument.",
+  },
   // The date the privacy policy took effect. Change it whenever the policy changes.
   privacyEffectiveDate: "November 5, 2026",
 } as const;

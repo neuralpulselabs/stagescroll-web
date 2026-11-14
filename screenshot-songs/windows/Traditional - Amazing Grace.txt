@@ -1,0 +1,29 @@
+Title: Amazing Grace
+Artist: Traditional
+Instrument: Guitar
+Key: G
+Tempo: 72
+Chord: G 320003 210003
+Chord: C x32010 x32010
+Chord: D xx0232 xx0132
+Chord: Em 022000 023000
+---
+[Verse 1]
+G              C        G
+Amazing grace, how sweet the sound,
+                         D
+That saved a wretch like me.
+G              C         G
+I once was lost, but now am found,
+        Em        D       G
+Was blind, but now I see.
+
+[Verse 2]
+G                C        G
+'Twas grace that taught my heart to fear,
+                         D
+And grace my fears relieved;
+G                 C         G
+How precious did that grace appear
+     Em         D        G
+The hour I first believed.
