@@ -12,7 +12,7 @@ import songDark from "@/assets/screenshots/song-dark.jpg";
 const features: { title: string; body: string; unlock?: boolean }[] = [
   {
     title: "Turn pages with your foot",
-    body: "A Bluetooth page-turner pedal scrolls a screen, or a few lines, at a time, so your hands stay on the strings. Pick any keys, or use a MIDI pedal over USB, Bluetooth or the network.",
+    body: "A Bluetooth page-turner pedal scrolls a screen, or a few lines, at a time, so your hands stay on the strings. Or show the song in two or three columns, like pages of a songbook, and each press turns the page. Pick any keys, or use a MIDI pedal.",
   },
   {
     title: "Auto-scroll at your pace",
@@ -109,7 +109,7 @@ const faqs = [
   },
   {
     q: "Does it work on iPhone or Mac?",
-    a: "No. StageScroll is made for the iPad's screen, so a whole verse and its chords fit at a size you can read from a music stand. A separate Windows version is on the way, and has its own page.",
+    a: "No. StageScroll is made for the iPad's screen, so a whole verse and its chords fit at a size you can read from a music stand. When there's room, as on an iPad turned on its side, a song can fill two or three columns, so more of it is in view at once. A separate Windows version is on the way, and has its own page.",
   },
   {
     q: "How do I bring in songs from somewhere else?",
@@ -260,7 +260,7 @@ export default function Home() {
               Free to play. One purchase for the band.
             </h2>
             <p className="mt-4 max-w-xl text-lg leading-relaxed text-cream-dim">
-              Pedal scrolling, auto-scroll, setlists, chord diagrams, tab, a version for every instrument,
+              Pedal scrolling, auto-scroll, columns, setlists, chord diagrams, tab, a version for every instrument,
               the tuner and the metronome, importing and sharing are all free, for good. A one-time unlock adds the rest. No subscription.
             </p>
           </div>

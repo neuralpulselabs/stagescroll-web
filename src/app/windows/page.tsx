@@ -23,7 +23,7 @@ const features: { title: string; body: string }[] = [
   },
   {
     title: "Scroll your way",
-    body: "Page Up, Page Down, the arrow keys and the mouse wheel move the sheet. Or click play and the song scrolls by itself at a speed saved with the song; a press of a scroll key pauses it. Click a song's tempo for a click that flashes on the beat.",
+    body: "Page Up, Page Down, the arrow keys and the mouse wheel move the sheet. Or click play and the song scrolls by itself at a speed saved with the song; a press of a scroll key pauses it. In a wide window, show the song in two or three columns and turn a page at a time. Click a song's tempo for a click that flashes on the beat.",
   },
   {
     title: "Jump to any section",
