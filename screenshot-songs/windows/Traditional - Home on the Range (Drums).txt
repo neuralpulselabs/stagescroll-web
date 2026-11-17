@@ -1,0 +1,54 @@
+Title: Home on the Range
+Artist: Traditional
+Instrument: Drums
+Tempo: 100
+---
+[Intro]
+(4 bars. Brushes or soft sticks on the snare.)
+      1 + 2 + 3 +
+HH    x . x . x .
+SD    . . . . . .
+BD    o . . . . .
+
+[Verse 1]
+(Waltz: kick on 1, snare on 2 and 3.)
+      1 + 2 + 3 +
+HH    x . x . x .
+SD    . . o . o .
+BD    o . . . . .
+
+[Chorus]
+(Add the hi-hat eighths and let the kick ring.)
+      1 + 2 + 3 +
+HH    x x x x x x
+SD    . . o . o .
+BD    o . . . . .
+
+[Verse 2]
+(Same as Verse 1.)
+      1 + 2 + 3 +
+HH    x . x . x .
+SD    . . o . o .
+BD    o . . . . .
+
+[Chorus]
+(Same as the first chorus.)
+      1 + 2 + 3 +
+HH    x x x x x x
+SD    . . o . o .
+BD    o . . . . .
+
+[Verse 3]
+(Back to a quiet waltz.)
+      1 + 2 + 3 +
+HH    x . x . x .
+SD    . . o . o .
+BD    o . . . . .
+
+[Chorus]
+(Same as the first chorus.)
+      1 + 2 + 3 +
+HH    x x x x x x
+SD    . . o . o .
+BD    o . . . . .
+(Slow down on the last line.)
